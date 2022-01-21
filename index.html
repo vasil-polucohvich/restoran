@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <title>Ресторан</title>
+    <meta name="description" content="ресторан">
+    <meta name="author" content="Василь Полюхович">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="css/main.min.css">
+    <link rel="apple-touch-icon" sizes="57x57" href="images/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="images/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="images/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-icon-114x114.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="images/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <script src="libs/wow.js/wow.js"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <!-- start wrapper -->
+        <header class="header">
+            <div class="container">
+                <!--start container -->
+                <div class="flex-container">
+                    <!--start flex-container -->
+                    <div class="logo wow slideInLeft" data-wow-duration="1s">
+                        <a href="/" class="logo-link ">
+                            <img src="images/logo.svg" alt="логотип" class="logo-img">
+                        </a>
+                    </div>
+                    <div class="menu wow zoomIn" id="menu" data-wow-duration="2s">
+                        <nav>
+                            <ul class="menu-list">
+                                <li class="menu-list__item">
+                                    <a class="menu-list__link" href="">главная</a>
+                                </li>
+                                <li class="menu-list__item">
+                                    <a class="menu-list__link" href="#menu-r">меню</a>
+                                </li>
+                                <li class="menu-list__item">
+                                    <a class="menu-list__link" href="#onas-r">о нас</a>
+                                </li>
+                                <li class="menu-list__item">
+                                    <a class="menu-list__link" href="#galblud">галерея блюд</a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <div class="phone">
+                            <a class="phone__tel" href="tel:+9998887654">+999-888-76-54</a>
+                            <p class="phone__text">Свяжитесь с нами для <br>
+                                бронирования</p>
+                        </div>
+                    </div>
+                    <div class="button wow slideInRight"  data-wow-duration="1s">
+                        <a class="btn button" href="mailto:mail@htmlservise.ua">ЗАКАЗ СТОЛИКА</a>
+                    </div>
+                    <div id="burger">
+                        <div class="burger__line"></div>
+                        <div class="burger__line"></div>
+                        <div class="burger__line"></div>
+                    </div>
+                </div>
+                <!--end flex-container -->
+                <div class="zagolovok wow fadeInDownBig" data-wow-duration="2s" >
+                    <p class="header-text">Добро пожаловать в</p>
+                    <h1 class="header-title">Наш ресторан</h1>
+                    <p class="header-subtitle">ДОМ ЛУЧШЕЙ ЕДЫ</p>
+                    <button class="btn-b ">смотреть меню</button>
+                </div>
+            </div>
+            <!--end container -->
+        </header>
+        <section class="section-cart">
+            <div class="container">
+                <h2 class="section-cart__title-hidden">Магическая aтмосфера</h2>
+                <div class="flex-container bg-shadow">
+                    <div class="cart wow backInLeft" data-wow-duration="2s">
+                        <img src="images/cart-section.png" width="87" height="87" alt="чайник">
+                        <p class="cart__title">Магическая <span class="cart__sutitle">Атмосфера</span></p>
+                        <p class="cart__text">В нашем заведении царит магическая атмосфера
+                            наполненная вкусными ароматами</p>
+                    </div>
+                    <div class="cart">
+                        <img src="images/cart-section.png" width="87" height="87" alt="чайник">
+                        <p class="cart__title">Лучшее качество <span class="cart__sutitle">Еды</span></p>
+                        <p class="cart__text">Качество нашей
+                            Еды - отменное!</p>
+                    </div>
+                    <div class="cart wow backInRight" data-wow-duration="2s">
+                        <img src="images/cart-section.png" width="87" height="87" alt="чайник">
+                        <p class="cart__title">Недорогая <span class="cart__sutitle">Еда</span></p>
+                        <p class="cart__text">Стоимость нашей Еды
+                            зависит только от ее
+                            количества. Качество
+                            всегда на высоте!</p>
+                    </div>
+                    <div class="bg-content"></div>
+                </div>
+            </div>
+        </section>
+        <section class="history" id="onas-r">
+            <div class="container">
+                <div class="flex-box">
+                    <div class="flex-box__item wow backInLeft" data-wow-duration="2s">
+                        <h2 class="history-block__title text-center">Наша<span class="history-block__title-color"> История</span></h2>
+                        <p class="history-block__text">
+                            Как и у любого другого самобытного места, у нас есть своя, особая история. Идея ресторана пришла основателям неожиданно. Во время прогулки по лесу создатель нашего ресторана застрял в сотнях километров от ближайшего населенного пункта. Вдали от цивилизации и связи им пришлось навремя обустровать себе нехитрый быт, добывать и готовить себе еду.
+                        </p>
+                        <ul class="list">
+                            <li class="list__item"><span class="list__item-num">93</span><br>Напитки</li>
+                            <li class="list__item"><span class="list__item-num">206</span><br>Еда</li>
+                            <li class="list__item"><span class="list__item-num">71</span><br>Закуски</li>
+                        </ul>
+                    </div>
+                    <div class="flex-box__item wow backInRight" data-wow-duration="2s">
+                        <div class="flex-box__item-inner">
+                            <img class="img-1" src="images/histrory-1.png" width="299" height="366" alt="квіти">
+                            <img class="img-2"  src="images/history-2.jpg" width="255" height="431" alt="квіти">
+                            <img class="img-3" src="images/history-3.jpg" width="254" height="300" alt="квіти">
+                            <div class="block-shadow"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="banner">
+            <div class="container">
+                <div class="flex-container ">
+                    <div class="banner-box wow backInLeft" data-wow-duration="2s">
+                        <h2 class="banner__title">Отпразднуйте в одном из
+                            самых лучших ресторанов.</h2>
+                        <p class="banner__text">Только в этом месяце бизнес-ланч от 250 ₽</p>
+                    </div>
+                    <div class="banner-box center-box wow backInRight" data-wow-duration="2s">
+                        <button class="btn ">ЗАКАЗ СТОЛИКА
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="servises">
+            <div class="container">
+                <h2 class="history-block__title text-center">Наши <span class="history-block__title-color"> Блюда</span></h2>
+                <div class="flexbox">
+                    <div class="servises-box box-1 wow backInLeft" data-wow-duration="1s">
+                        <img class="servises-box__img" src="images/pizza.jpg" width="553" height="470" alt="пицца" >
+                    </div>
+                    <div class="servises-box box-2 wow backInRight" data-wow-duration="1s">
+                        <div class="servises-box__img">
+                            <div class="servises-img">
+                                <img src="images/hamburger1.jpg" width="160" height="140" alt="гамбургер">
+                            </div>
+                            <div class="servises-box__text">
+                                <span>Гамбургер мини</span>
+                                <span class="servises-box__text_line"></span>
+                                <span style="text-align:right">220&nbsp;&Rho;</span>
+                            </div>
+                        </div>
+                        <div class="servises-box__img">
+                            <div class="servises-img">
+                                <img src="images/hamburger1.jpg" width="160" height="140" alt="гамбургер">
+                            </div>
+                            <div class="servises-box__text">
+                                <span>Гамбургер мини</span>
+                                <span class="servises-box__text_line"></span>
+                                <span style="text-align:right">220&nbsp;&Rho;</span>
+                            </div>
+                        </div>
+                        <div class="servises-box__img">
+                            <div class="servises-img">
+                                <img src="images/hamburger1.jpg" width="160" height="140" alt="гамбургер">
+                            </div>
+                            <div class="servises-box__text">
+                                <span>Гамбургер мини</span>
+                                <span class="servises-box__text_line"></span>
+                                <span style="text-align:right">220&nbsp;&Rho;</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="servise-menu" id="menu-r">
+            <div class="container">
+                <h2 class="servise-menu__title text-center">Наше меню</h2>
+                <div class="flex-container flex-menu">
+                    <div class="servise-cart wow backInLeft" data-wow-duration="1s">
+                        <span class="servise-cart__rec">RECOMMENDED</span>
+                        <div class="servise-cart-inner ">
+                            <img class="servise-cart__img" src="images/menu-servise.jpg" width="229" height="229" alt="меню">
+                            <div class="circle">420</div>
+                        </div>
+                        <h3 class="servise-cart__title">Гамбургер макси</h3>
+                        <p class="servise-cart__text">Максимально толстый слой мяса</p>
+                        <button class="btn servise-cart__btn ">ЗАКАЗАТЬ</button>
+                    </div>
+                    <div class="servise-cart ">
+                        <div class="servise-cart-inner">
+                            <img class="servise-cart__img"  src="images/menu-servise.jpg" width="229" height="229" alt="меню">
+                            <div class="circle">420</div>
+                        </div>
+                        <h3 class="servise-cart__title">Гамбургер макси</h3>
+                        <p class="servise-cart__text">Максимально толстый слой мяса</p>
+                        <button class="btn servise-cart__btn ">ЗАКАЗАТЬ</button>
+                    </div>
+                    <div class="servise-cart wow backInRight" data-wow-duration="1s">
+                        <div class="servise-cart-inner">
+                            <img class="servise-cart__img"  src="images/menu-servise.jpg" width="229" height="229" alt="меню">
+                            <div class="circle">420</div>
+                        </div>
+                        <h3 class="servise-cart__title">Гамбургер макси</h3>
+                        <p class="servise-cart__text">Максимально толстый слой мяса</p>
+                        <button class="btn servise-cart__btn ">ЗАКАЗАТЬ</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="slider">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="slider-box swiper-slide ">
+                        <p class="slider__text">
+                            Я надолго запомню мой День рождения, проведённый в этом ресторане! Кусочек родной Армении!!! Отдельное спасибо за комплепент в виде фруктовой тарелки. Будем рекомендовать этот ресторан своим друзьям и родственникам также за рубежом, путешествующих в Санкт-Петербург!!!
+                        </p>
+                        <img class="slider__img" src="images/home-slide.jpg" width="150" height="150" alt="посетитель">
+                        <h3 class="slider__title">Посетитель<br><span>Николай</span></h3>
+                    </div>
+                    <div class="slider-box swiper-slide ">
+                        <p class="slider__text">
+                            Я надолго запомню мой День рождения, проведённый в этом ресторане! Кусочек родной Армении!!! Отдельное спасибо за комплепент в виде фруктовой тарелки. Будем рекомендовать этот ресторан своим друзьям и родственникам также за рубежом, путешествующих в Санкт-Петербург!!!
+                        </p>
+                        <img class="slider__img" src="images/home-slide.jpg" width="150" height="150" alt="посетитель">
+                        <h3 class="slider__title">Посетитель<br><span>Николай</span></h3>
+                    </div>
+                    <div class="slider-box swiper-slide ">
+                        <p class="slider__text">
+                            Я надолго запомню мой День рождения, проведённый в этом ресторане! Кусочек родной Армении!!! Отдельное спасибо за комплепент в виде фруктовой тарелки. Будем рекомендовать этот ресторан своим друзьям и родственникам также за рубежом, путешествующих в Санкт-Петербург!!!
+                        </p>
+                        <img class="slider__img" src="images/home-slide.jpg" width="150" height="150" alt="посетитель">
+                        <h3 class="slider__title">Посетитель<br><span>Николай</span></h3>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+        <section class="blude" id="galblud">
+            <h2 class="history-block__title text-center">Галерея <span class="history-block__title-color"> Блюд</span></h2>
+            <div class="container">
+                <div class=" baguetteBoxOne gallery grid-container">
+                    <div class="gallery__img grid-1">
+                        <a href="images/gallery-1.jpg">
+                            <img src="images/gallery-1.jpg" width="564" height="310" alt="вино">
+                        </a>
+                    </div>
+                    <div class="gallery__img grid-2">
+                        <a href="images/gallery-2.jpg">
+                            <img src="images/gallery-2.jpg" width="277" height="310" alt="кофе">
+                        </a>
+                    </div>
+                    <div class="gallery__img grid-3">
+                        <a href="images/gallery-3.jpg">
+                            <img src="images/gallery-3.jpg" width="277" height="310" alt="борщ">
+                        </a>
+                    </div>
+                    <div class="gallery__img grid-4">
+                        <a href="images/gallery-2.jpg">
+                            <img src="images/gallery-2.jpg" width="277" height="310" alt="кофе">
+                        </a>
+                    </div>
+                    <div class="gallery__img grid-5">
+                        <a href="images/gallery-3.jpg">
+                            <img src="images/gallery-3.jpg" width="277" height="310" alt="борщ">
+                        </a>
+                    </div>
+                    <div class="gallery__img grid-6">
+                        <a href="images/gallery-1.jpg">
+                            <img src="images/gallery-1.jpg" width="564" height="310" alt="вино">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="blude">
+            <h2 class="history-block__title text-center">Наши <span class="history-block__title-color"> повара</span></h2>
+            <div class="container">
+                <div class="gridpovar">
+                    <div class="gridpovar-cart wow backInLeft" data-wow-duration="1s">
+                        <img class="gridpovar-cart__img" src="images/povar-1.jpg" alt="повар">
+                    </div>
+                    <div class="gridpovar-cart">
+                        <img class="gridpovar-cart__img" src="images/povar-2.jpg" alt="повар">
+                    </div>
+                    <div class="gridpovar-cart wow backInRight" data-wow-duration="1s">
+                        <img class="gridpovar-cart__img" src="images/povar-3.jpg" alt="повар">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div><!-- end wrapper -->
+    <script src="js/scripts.min.js" async></script>
+    
+    
+</body>
+
+</html>
